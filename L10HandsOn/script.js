@@ -9,7 +9,7 @@ $(document).ready(function () {
   );
 
   $.ajax({
-    url: 'https://api.github.com/users/JeremyTShields',
+    url: 'https://api.github.com/users/JeremyTShields/repos',
     method: 'GET',
     success: function (repos) {
       repos.forEach(function (repo) {
